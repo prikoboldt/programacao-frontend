@@ -5,22 +5,32 @@
   align-items: center;
   justify-content: center;
   background-color: #e3aadc;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .login-form {
   display: flex;
   flex-direction: column;
-  
+}
+
+.login-container {
+  padding: 5rem;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin: 0.5rem;
 }
 
 label {
   text-align: left;
-  padding: 0.2rem 0;
+  padding: 0.3rem 0;
   font-weight: bold;
 }
 
 input {
-  margin: 0.1rem 0;
+  margin: 0.2rem 0;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
 }
 
 button {
